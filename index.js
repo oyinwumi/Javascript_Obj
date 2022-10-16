@@ -51,7 +51,7 @@ const Addresses2 = new Address2('Aladun Ave', 'oyo' , 200112)
 const Addresses3 = new Address2('Aladun Ave', 'oyo' , 200112)
 
 function areEqual (Addresses2, Addresses3){
-    console.log("yes mogbe")
+
     console.log(Object.keys( Addresses2))
     
     console.log(Object.keys( Addresses3))
