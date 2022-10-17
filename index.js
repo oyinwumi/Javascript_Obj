@@ -48,7 +48,7 @@ function Address2 (street, city , zipCode){
 
 console.log('qestion 3')
 const Addresses2 = new Address2('Aladun Ave', 'oyo' , 200112)
-const Addresses3 = new Address2('Aladun Ave', 'oyo' , 200112)
+const Addresses3 = new Address2('Ajoke Ave', 'osun' , 233112)
 
 function areEqual (Addresses2, Addresses3){
 
