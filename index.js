@@ -50,7 +50,7 @@ console.log('qestion 3')
 const Addresses2 = new Address2('Aladun Ave', 'oyo' , 200112)
 const Addresses3 = new Address2('Ajoke Ave', 'osun' , 233112)
 
-function areEqual (Addresses2, Addresses3){
+function areEqual (a, b){
 
     console.log(Object.keys( Addresses2))
     
@@ -62,7 +62,7 @@ function areEqual (Addresses2, Addresses3){
 
 console.log(areEqual (Addresses2, Addresses3));
 
-function areSame (Addresses2, Addresses3){
+function areSame (a, b){
     console.log(Addresses2)
     console.log(Addresses3)
  return   Addresses2 === Addresses3 ? true: false
@@ -92,7 +92,10 @@ let blogPost = {
 }
 console.log(blogPost)
 
-
+for(let key in blogPost)
+console.log(key)
+// for(let key in Object.keys (blogPost))
+// console.log(key)
 
 //For each of the exercises below, assume you are starting with the following programming object.
 // let programming = {
